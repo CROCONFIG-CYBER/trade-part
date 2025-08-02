@@ -8,35 +8,54 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 120 20% 98%;
+    --foreground: 120 20% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 120 20% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 120 20% 8%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 120 40% 25%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 120 30% 92%;
+    --secondary-foreground: 120 20% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 120 20% 95%;
+    --muted-foreground: 120 10% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 75 80% 55%;
+    --accent-foreground: 120 20% 8%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 120 20% 85%;
+    --input: 120 20% 85%;
+    --ring: 120 40% 25%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Custom farm-themed tokens */
+    --success: 120 60% 45%;
+    --success-foreground: 0 0% 98%;
+    
+    --warning: 45 90% 55%;
+    --warning-foreground: 45 90% 15%;
+    
+    --farm-primary: 120 40% 25%;
+    --farm-secondary: 75 80% 55%;
+    --farm-accent: 45 90% 55%;
+    
+    --gradient-farm: linear-gradient(135deg, hsl(var(--farm-primary)), hsl(var(--farm-secondary)));
+    --gradient-earth: linear-gradient(180deg, hsl(120 30% 92%), hsl(120 20% 98%));
+    
+    --shadow-soft: 0 4px 20px -4px hsl(var(--farm-primary) / 0.15);
+    --shadow-farm: 0 8px 30px -8px hsl(var(--farm-secondary) / 0.3);
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
